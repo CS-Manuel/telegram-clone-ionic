@@ -1,0 +1,7 @@
+{
+  "name": "telegramclone",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
