@@ -1,0 +1,91 @@
+<!-- <ion-header [translucent]="true">
+  <ion-toolbar color="primary">
+    <ion-buttons>
+      <ion-button>
+        <ion-back-button></ion-back-button>
+      </ion-button>
+      
+        <ion-avatar style="margin-right: 10px; position: relative;">
+          <ion-img src=""></ion-img>
+        </ion-avatar>
+        <ion-label>Maria Ramos </ion-label>
+        <p style="position: relative; margin-bottom: -20px; margin-left:-96px;">online</p>
+    
+    </ion-buttons>
+    
+    
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  
+
+</ion-content>
+<ion-footer>
+    <ion-textarea placeholder="Message" style="border-style: dashed; border: deeppink; border-radius: 3px;"></ion-textarea>
+</ion-footer> -->
+
+<ion-content>
+  <div class="header ion-padding">
+    <div class="info">
+      <ion-icon name="chevron-back-outline" routerLink="/folder/inbox"></ion-icon>
+      <ion-avatar>
+        <img src="/assets/icon/favicon.png" alt="user profile photo"/>
+      </ion-avatar>
+      <span class="details">
+        <h1>John</h1>
+        <p>Online</p>
+      </span>
+    </div>
+
+    <!--Adding the video and call buttons-->
+    <div class="calling">
+      <ion-icon name="videocam-outline"></ion-icon>
+      <ion-icon name="call-outline"></ion-icon>
+    </div>
+  </div>
+
+  <!--Adding the body and the botton-->
+  <div class="conversation ion-padding">
+    <div class="chat-section" id="chart">
+      <div class="chat">
+        <div class="yours messages">
+          <div class="message other">
+            Hello World!
+          </div>
+          <div class="message other"> 
+            Great job!
+          </div>
+          <div class="last-message-other">
+            <ion-avatar>
+              <img src="/assets/icon/favicon.png" alt="user profile picture"/>
+            </ion-avatar>
+            <div class="message last">
+              Hello UI Design
+            </div>
+          </div>
+          <span>11:44 PM</span>
+        </div>
+        <div class="mine messages">
+          <div class="message"> 
+            Great thanks!
+          </div>
+          <div class="message last">
+            How about it?
+          </div>
+          <span>
+            <ion-icon name="checkmark-done-outline"></ion-icon> 12:00 AM
+          </span>
+        </div>
+      </div>
+    </div>
+
+    <!--Adding the text area here-->
+    <div class="message-input">
+      <ion-input placeholder="Type your message..."></ion-input>
+      <div class="send-button">
+        <ion-icon name="send-sharp"></ion-icon>
+      </div>
+    </div>
+  </div>
+</ion-content>
